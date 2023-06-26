@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+  background-color: rgb(34, 34, 34);
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.navbar-brand{
+  color: rgb(161, 161, 161);
+}
+
+.menu_item {
+  color: rgb(161, 161, 161);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-stretch: normal;
+  
+}
+
+.row {
+width: 50rem;
+text-align: center;
+}
+
+/* Displey Flex para la galería imagenes */
+.container {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: whitesmoke; 
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    margin: 20px;
+    font-family: Roboto;
+}
+
+.burger{
+ 
+  background-color: rgb(163, 160, 160);
+
+}
+
+
+
+.d-block {
+  height: 500px;  
+  object-fit: contain; 
+
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-gallery .col-md-3 {
+    margin-bottom: 20px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    text-align: center;
+  }
+
+  .popup-content {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .popup-image {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+
+ 
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #333333;
+  }
+
+  /* tienda */
+  
+ .form-contact {
+  background-color: rgb(41, 40, 40);
+  margin: 4%;
+  padding: 2%;
+}
+
+.mantenimiento{
+  text-align: center;
+}
+
+.text-form {
+  text-align: start;
+}
+
+/* PÁGINAS DE MARIDAJE */
+
+section img {
+  text-align: center;
+}
+
+.imagen_pages{
+  padding: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+ 
+}
+
+.maridajes_list{
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+.intro_malbec {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.field {
+  margin-top: 10%;
+}
+
+
+/* Ajuste de margenes superior e inferior para contacto */
+.container-wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 250px;
+}
+
+
+
+
+
+ 
