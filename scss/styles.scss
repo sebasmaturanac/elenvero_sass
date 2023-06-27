@@ -2,8 +2,10 @@
 @import './abstract/maps';
 @import './abstract/extend';
 @import './abstract/mixin';
+@import './abstract/variables';
 
 
 
 @import './components/nav.scss';
 @import './components/body';
+@import './components/footer';

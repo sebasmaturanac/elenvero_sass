@@ -27,26 +27,40 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-body {
   color: rgb(161, 161, 161);
+  font-family: "Roboto", sans-serif;
 }
 
 .card-text {
   text-align: center;
   color: rgb(161, 161, 161);
+  font-family: "Roboto", sans-serif;
 }
 
 .title_seleccion {
   text-align: center;
   color: rgb(161, 161, 161);
   margin-top: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-img-top {
   margin: 5px;
   padding: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.final_torrontes {
+  text-align: center;
 }
 
 .container {
@@ -104,6 +118,43 @@ table {
   border-collapse: collapse;
   margin-top: 10px;
   background-color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.imagen_pages {
+  padding: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.maridajes_list {
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+.intro_malbec {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.field {
+  margin-top: 10%;
+}
+
+.text-center {
+  color: rgb(161, 161, 161);
 }
 
 /*# sourceMappingURL=styles.css.map */
