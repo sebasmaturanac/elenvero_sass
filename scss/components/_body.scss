@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.card-body{
+    @extend %orden;
+}
+
+.card-text{
+    text-align: center;
+}
