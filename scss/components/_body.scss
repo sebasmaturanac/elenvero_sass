@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+  background: rgb(0,0,0);
+
     color: white;
     font-family: $font-family;
     
@@ -29,6 +30,15 @@ body{
     margin: 5px;
     padding: 40px;
     font-family: $font-family;
+
+}
+
+// ANIMACION DE CARDS
+.card-img-top:hover{
+  
+  transform: scale(1.5);
+  
+  transition: all 2s;
 }
 
 .card-title {
@@ -131,3 +141,10 @@ h1, h2, h3, h4, h5, p {
     margin-top: 10%;
   }
 
+
+  // TIENDA
+
+  .img-tienda {
+    
+ 
+  }
