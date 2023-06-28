@@ -149,13 +149,16 @@ h1, h2, h3, h4, h5, p {
   align-items: center; }
 
 .img-tienda img {
-  max-width: 100px;
-  max-height: 20vh; }
+  max-width: 100px !important;
+  max-height: 50vh !important; }
 
 .my-form-column {
   width: 500px;
   /* Establece el ancho deseado */
   max-width: 100%; }
+
+.mantenimiento h1 h2 {
+  color: whitesmoke; }
 
 .text-center {
   color: #a1a1a1; }
