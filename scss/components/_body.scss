@@ -145,6 +145,21 @@ h1, h2, h3, h4, h5, p {
   // TIENDA
 
   .img-tienda {
-    
- 
-  }
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-tienda img {
+  max-width: 100px;
+  max-height: 20vh;
+}
+
+  // FORMULARIO DE CONTACTO
+  
+  .my-form-column {
+    width: 500px; /* Establece el ancho deseado */
+    max-width: 100%;
+}
