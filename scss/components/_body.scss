@@ -33,6 +33,11 @@ body{
 
 }
 
+.btn{
+      color: nth($color, 2 );
+
+}
+
 // ANIMACION DE CARDS
 .card-img-top:hover{
   
