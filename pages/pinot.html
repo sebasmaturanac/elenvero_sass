@@ -2,158 +2,205 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EL ENVERO WEB</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EL ENVERO WEBSITE - Pinot Noir</title>
+  <meta name="description"
+    content="Descrube el mejor sitio para maridajes para todas las variedades de vienos. Eventos de catas con show en vivo.">
+  <meta name="keywords" content="maridaje de Pinot Noir, Degustaciones de Pinot Noir, catas de Pinot Noir">
+  <link rel="icon" href="../img/favicon-32x32.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
 
-    <!-- Fuente Roboto Google Font Import -->
+  <!-- Fuente Roboto Google Font Import -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Serif:wght@900&family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Serif:wght@900&family=Roboto:wght@100;300;500;900&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <nav class="nav_bar navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">EL ENVERO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="burger">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item px-2">
-                  <a class="menu_item" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="menu_item" href="./seleccion.html">Nuestra Selección</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="menu_item" href="./catas.html">Catas de Vino</a>
-                </li>
-                <li class="menu_item dropdown px-2">
-                  <a class="menu_item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">Nuestros Maridajes</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./torrontes.html">Torrontes</a></li>
-                    <li><a class="dropdown-item" href="./malbec.html">Malbec</a></li>
-                    <li><a class="dropdown-item" href="./pinot.html">Pinot Noir</a></li>
-                    <li><a class="dropdown-item" href="./cabernet.html">Cabernet Sauvignon</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="menu_item" href="./tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="menu_item" href="./contacto.html">Contacto</a>
-                </li>
+  <header>
+    <nav class="nav_bar navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <h1 id="titulo_h1">EL ENVERO </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="burger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-2">
+              <a class="menu_item" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="menu_item" href="./seleccion.html">Nuestra Selección</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="menu_item" href="./catas.html">Catas de Vino</a>
+            </li>
+            <li class="menu_item dropdown px-2">
+              <a class="menu_item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Nuestros Maridajes</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./torrontes.html">Torrontes</a></li>
+                <li><a class="dropdown-item" href="./malbec.html">Malbec</a></li>
+                <li><a class="dropdown-item" href="./pinot.html">Pinot Noir</a></li>
+                <li><a class="dropdown-item" href="./cabernet.html">Cabernet Sauvignon</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    <!-- uso la clase malbec para centrar todo -->
-<div class="intro_malbec"> 
+            </li>
+            <li class="nav-item px-2">
+              <a class="menu_item" href="./tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="menu_item" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- uso la clase malbec para centrar todo -->
+  <div class="intro_malbec">
 
-    <h4>Una de las principales características del Pinot Noir es su gran versatilidad y delicadeza a la hora de crear maridajes. Todo dependerá de su estilo: qué tan moderados son sus taninos o qué nivel de acidez tiene, son factores relevantes a la hora de escoger un plato para acompañarlo. Aquí te contamos cómo lograr un match exitoso.</h4>
-   
-    <p>El pinot noir es una cepa que no pasa desapercibida. Primero, llama la atención por su color un tanto traslúcido, mucho más claro que un vino tinto común pero más oscuro que un rosado. Luego, en la boca, destaca por sus taninos ligeros y su sabor a frutas que recuerdan a las frutillas, frambuesas, cerezas y flores como las violetas. Además, por cierto, de su brillante acidez, elegancia y final suave. Se trata de vinos delicados, que cuando tienen guarda en madera también entregan los aromas que le aportan los barriles como la vainilla o el ahumado. Por otro lado, cuando la guarda en barricas se extiende, estos desarrollan notas complejas a setas y tierra.</p>
-   <p>Cuando se trata de pinot noir muy jugosos, jóvenes y que no tienen guarda en madera, hay ciertas preparaciones como las terrinas, pates, charcutería y verduras verdes grilladas como los espárragos (típicos acompañamientos para los pinot de la Borgoña), que no fallan. La acidez del vino ayudará a cortar la grasa de la comida, limpiando el paladar para seguir disfrutando bocado tras bocado. Las notas verdes de los vegetales, por su parte, se complementarán con los aromas herbales que este vino ofrece.</p>
-    <img src="../img/pinot.png" alt="" class="imagen_pages container">
+    <h4>Una de las principales características del Pinot Noir es su gran versatilidad y delicadeza a la hora de crear
+      maridajes. Todo dependerá de su estilo: qué tan moderados son sus taninos o qué nivel de acidez tiene, son
+      factores relevantes a la hora de escoger un plato para acompañarlo. Aquí te contamos cómo lograr un match exitoso.
+    </h4>
 
-   <p>Pero cuando se trata de variedades en las que sí se utilizan barriles de madera para su guarda, el pinot noir se vuelve un poco más complejo. Carnes blancas como el pollo, mariscos e incluso cordero o cortes grasos como las mollejas, pastas con salsas de champiñones y marquesos jóvenes son algunas elecciones que te permitirán irte a la segura con vinos tales como Marqués de Casa Concha Pinot Noir o Amelia Pinot Noir. Provenientes de un clima más fresco como es el Valle del Limarí, ambos destacan por su tensión, carácter mineral y una especial delicadeza, perfectos para acompañar este tipo de platos con elegancia y frescor.</p>     
+    <p>El pinot noir es una cepa que no pasa desapercibida. Primero, llama la atención por su color un tanto traslúcido,
+      mucho más claro que un vino tinto común pero más oscuro que un rosado. Luego, en la boca, destaca por sus taninos
+      ligeros y su sabor a frutas que recuerdan a las frutillas, frambuesas, cerezas y flores como las violetas. Además,
+      por cierto, de su brillante acidez, elegancia y final suave. Se trata de vinos delicados, que cuando tienen guarda
+      en madera también entregan los aromas que le aportan los barriles como la vainilla o el ahumado. Por otro lado,
+      cuando la guarda en barricas se extiende, estos desarrollan notas complejas a setas y tierra.</p>
+    <p>Cuando se trata de pinot noir muy jugosos, jóvenes y que no tienen guarda en madera, hay ciertas preparaciones
+      como las terrinas, pates, charcutería y verduras verdes grilladas como los espárragos (típicos acompañamientos
+      para los pinot de la Borgoña), que no fallan. La acidez del vino ayudará a cortar la grasa de la comida, limpiando
+      el paladar para seguir disfrutando bocado tras bocado. Las notas verdes de los vegetales, por su parte, se
+      complementarán con los aromas herbales que este vino ofrece.</p>
+    <img src="../img/pinot.png" alt="comida con pinot" class="imagen_pages container">
 
-   <p>Por su parte pinot noirs que son más dulces, tánicos, terrosos y alcohólicos que han sido producidos en climas más cálidos como el del Valle del Bío Bío, acompañan muy bien a platos con un toque especiado como carnes de pato, cerdo desmenuzado, codorniz, venado o pescados de sabores fuertes como el salmón o el atún. Más todavía si se acentúa el dulzor de la mezcla con ingredientes como los higos y ciruelas; si se incluyen hierbas como el tomillo; quesos como el Brie; o ya derechamente cacerolas o platos de cocción lenta como el Beef Bourguignon. Puedes hacer la prueba con Marqués de Casa Concha Edición Limitada Pinot Noir, que viene precisamente de esa zona en el sur de Chile y que ofrece taninos más presentes.</p>
+    <p>Pero cuando se trata de variedades en las que sí se utilizan barriles de madera para su guarda, el pinot noir se
+      vuelve un poco más complejo. Carnes blancas como el pollo, mariscos e incluso cordero o cortes grasos como las
+      mollejas, pastas con salsas de champiñones y marquesos jóvenes son algunas elecciones que te permitirán irte a la
+      segura con vinos tales como Marqués de Casa Concha Pinot Noir o Amelia Pinot Noir. Provenientes de un clima más
+      fresco como es el Valle del Limarí, ambos destacan por su tensión, carácter mineral y una especial delicadeza,
+      perfectos para acompañar este tipo de platos con elegancia y frescor.</p>
 
-<p>Para los vegetarianos, productos con notas terrosas como las lentejas, betarragas asadas, espinacas salteadas, arroces con setas y trufas pueden ser excelentes opciones. Un vino para partir experimentando podría ser Casillero del Diablo Pinot Noir. ¿Estás listo para intentarlo?</p>
-</div>
-<h2>Nuestro Maridaje Perfecto</h2>
+    <p>Por su parte pinot noirs que son más dulces, tánicos, terrosos y alcohólicos que han sido producidos en climas
+      más cálidos como el del Valle del Bío Bío, acompañan muy bien a platos con un toque especiado como carnes de pato,
+      cerdo desmenuzado, codorniz, venado o pescados de sabores fuertes como el salmón o el atún. Más todavía si se
+      acentúa el dulzor de la mezcla con ingredientes como los higos y ciruelas; si se incluyen hierbas como el tomillo;
+      quesos como el Brie; o ya derechamente cacerolas o platos de cocción lenta como el Beef Bourguignon. Puedes hacer
+      la prueba con Marqués de Casa Concha Edición Limitada Pinot Noir, que viene precisamente de esa zona en el sur de
+      Chile y que ofrece taninos más presentes.</p>
 
-<ul><li class="maridajes_list">
-    <h4>Salmón</h4>
+    <p>Para los vegetarianos, productos con notas terrosas como las lentejas, betarragas asadas, espinacas salteadas,
+      arroces con setas y trufas pueden ser excelentes opciones. Un vino para partir experimentando podría ser Casillero
+      del Diablo Pinot Noir. ¿Estás listo para intentarlo?</p>
+  </div>
+  <h2>Nuestro Maridaje Perfecto</h2>
 
-Preparado de la manera que más te guste, el salmón tiene un sabor fuerte que puede chocar con los vinos tintos que tienen taninos firmes, pero no con el Pinot Noir. Acompaña esa cena de salmón con una copa de Pinot Noir y verás como brilla. Ahora, si buscas una recomendación que lo lleve a un nivel superior, el salmón a la parrilla acompañará de manera extraordinaria los Pinot Noir más afrutados, como el chileno. 
+  <ul>
+    <li class="maridajes_list">
+      <h4>Salmón</h4>
 
-<img src="../img/salmon_poinot.jpeg" alt="" class="imagen_pages container">
-</li>
-<li class="maridajes_list"> <h4>Quesos</h4>
+      Preparado de la manera que más te guste, el salmón tiene un sabor fuerte que puede chocar con los vinos tintos que
+      tienen taninos firmes, pero no con el Pinot Noir. Acompaña esa cena de salmón con una copa de Pinot Noir y verás
+      como brilla. Ahora, si buscas una recomendación que lo lleve a un nivel superior, el salmón a la parrilla
+      acompañará de manera extraordinaria los Pinot Noir más afrutados, como el chileno.
 
-    ¿Pensando en una tabla de picoteo? ¡No dejes de incluir quesos brie y gouda! La acidez y notas afrutadas del Pinot Noir se combinará perfectamente con estos quesos más bien salados. Además si quieres complementar tu tabla picoteo con otras frutas que realcen el vino y el queso, puedes agregar frutillas, cerezas y arándanos. ¡Qué lo disfrutes!
-    <img src="../img/quesos_pinot.jpg" alt="" class="imagen_pages container">
-</li>
-    <li class="maridajes_list"><h4>Pizza</h4>
+      <img src="../img/salmon_poinot.jpeg" alt="salmon con pinot" class="imagen_pages container">
+    </li>
+    <li class="maridajes_list">
+      <h4>Quesos</h4>
 
-        Cuando te decíamos que este vino está hecho para momentos relajados, te lo decíamos en serio: el Pinot Noir es el compañero perfecto para una noche de pizza
-        
-        (sobre todo si es de pepperoni). Lo salado de la pizza resaltan las notas del Pinot Noir, al mismo tiempo que la acidez de este vino ayuda a controlar todo lo grasiento que puede ser el queso y el pepperoni. 
-        <img src="../img/pizzas_pinot.jpeg" alt="" class="imagen_pages container">
+      ¿Pensando en una tabla de picoteo? ¡No dejes de incluir quesos brie y gouda! La acidez y notas afrutadas del Pinot
+      Noir se combinará perfectamente con estos quesos más bien salados. Además si quieres complementar tu tabla picoteo
+      con otras frutas que realcen el vino y el queso, puedes agregar frutillas, cerezas y arándanos. ¡Qué lo disfrutes!
+      <img src="../img/quesos_pinot.jpg" alt="queso con pinot" class="imagen_pages container">
+    </li>
+    <li class="maridajes_list">
+      <h4>Pizza</h4>
+
+      Cuando te decíamos que este vino está hecho para momentos relajados, te lo decíamos en serio: el Pinot Noir es el
+      compañero perfecto para una noche de pizza
+
+      (sobre todo si es de pepperoni). Lo salado de la pizza resaltan las notas del Pinot Noir, al mismo tiempo que la
+      acidez de este vino ayuda a controlar todo lo grasiento que puede ser el queso y el pepperoni.
+      <img src="../img/pizzas_pinot.jpeg" alt="pizza con pinot" class="imagen_pages container">
     </li>
 
-    <li class="maridajes_list"> <h4>Champiñones, hongos, portobellos o trufas</h4>
+    <li class="maridajes_list">
+      <h4>Champiñones, hongos, portobellos o trufas</h4>
 
-        Los sabores frutales del Pinot Noir realzan los sabores más terrosos de los champiñones. Y a medida que los Pinot Noir envejecen pueden desarrollar notas que realzan aún más los sabores naturales de los hongos, ya sea que estés acompañándolos con champiñones, portobellos o trufas.
-        <img src="../img/champignon_pinot.webp" alt="" class="imagen_pages container">
+      Los sabores frutales del Pinot Noir realzan los sabores más terrosos de los champiñones. Y a medida que los Pinot
+      Noir envejecen pueden desarrollar notas que realzan aún más los sabores naturales de los hongos, ya sea que estés
+      acompañándolos con champiñones, portobellos o trufas.
+      <img src="../img/champignon_pinot.webp" alt="champignon con pinot" class="imagen_pages container">
     </li>
-</ul>
+  </ul>
 
 
 
 
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg>
-                </a>
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+        </a>
 
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        class="bi bi-twitter" viewBox="0 0 16 16">
-                        <path
-                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                    </svg>
-                </a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+        </a>
 
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="25" fill="currentColor"
-                        class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg>
-                </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="25" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright El Envero - Web Desing by
-            <a class="text-white" href="http://sebastianmaturana.com/">Sebastian Maturana</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright El Envero - Web Desing by
+      <a class="text-white" href="http://sebastianmaturana.com/">Sebastian Maturana</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-    <!--Boostrap JS-->
+  <!--Boostrap JS-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </body>
 

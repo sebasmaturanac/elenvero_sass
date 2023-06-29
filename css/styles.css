@@ -31,6 +31,18 @@ body {
   color: white;
   font-family: "Roboto", sans-serif; }
 
+#titulo_h1 {
+  font-size: 25px; }
+
+.menu_item {
+  font-size: 18px; }
+
+.menu_item:hover {
+  color: whitesmoke; }
+
+.dropdown-item:hover {
+  color: #a1a1a1; }
+
 .card-body {
   color: #a1a1a1;
   font-family: "Roboto", sans-serif; }
@@ -54,7 +66,7 @@ body {
 .btn {
   color: #a1a1a1; }
 
-.card-img-top:hover {
+#card-img-top:hover {
   transform: scale(1.5);
   transition: all 2s; }
 

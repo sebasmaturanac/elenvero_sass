@@ -2,9 +2,25 @@ body{
   background: rgb(0,0,0);
 
     color: white;
-    font-family: $font-family;
-    
+    font-family: $font-family;    
 }
+
+#titulo_h1{
+  font-size: 25px;
+}
+
+.menu_item{
+  font-size: 18px;
+}
+.menu_item:hover{
+  color: nth($color, 4 )
+}
+
+.dropdown-item:hover{
+  color: nth($color, 2 )
+}
+
+
 
 .card-body{
     @extend %orden;
@@ -33,13 +49,14 @@ body{
 
 }
 
+
 .btn{
       color: nth($color, 2 );
 
 }
 
 // ANIMACION DE CARDS
-.card-img-top:hover{
+#card-img-top:hover{
   
   transform: scale(1.5);
   
