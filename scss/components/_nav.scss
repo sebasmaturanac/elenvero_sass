@@ -1,38 +1,49 @@
-.nav_bar{
-    background-color: nth($color, 3);
-    font-size: nth($size, 2);
+.nav_bar {
+  background-color: nth($color, 3);
+  font-size: nth($size, 2);
 
 }
 
 .navbar-brand {
-    color: whitesmoke;
-    font-size: nth($size , 3);
+  color: whitesmoke;
+  font-size: nth($size , 3);
 }
 
 .menu_item {
-    text-decoration: none;
-    color: nth($color , 2);
-    @extend %orden;    
-  }
+  text-decoration: none;
+  color: nth($color , 2);
+  @extend %orden;
+}
 
-  .navbar-nav {
-    @extend %orden;
-  }
+#titulo_h1 {
+  font-size: 25px;
+}
 
- #burger{ 
-    background-color: rgb(184, 181, 181);
-    
-  }
+.menu_item {
+  font-size: 18px;
+}
 
-  .formulario {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
-    margin-bottom: 250px;
-    width: 1500%;
-  }
+.menu_item:hover {
+  color: nth($color, 4)
+}
 
-    
+.dropdown-item:hover {
+  color: nth($color, 2)
+}
 
+.navbar-nav {
+  @extend %orden;
+}
 
+#burger {
+  background-color: rgb(184, 181, 181);
 
+}
+
+.formulario {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 250px;
+  width: 1500%;
+}

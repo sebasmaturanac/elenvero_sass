@@ -16,6 +16,18 @@
   text-decoration: none;
   color: #a1a1a1; }
 
+#titulo_h1 {
+  font-size: 25px; }
+
+.menu_item {
+  font-size: 18px; }
+
+.menu_item:hover {
+  color: whitesmoke; }
+
+.dropdown-item:hover {
+  color: #a1a1a1; }
+
 #burger {
   background-color: #b8b5b5; }
 
@@ -30,18 +42,6 @@ body {
   background: black;
   color: white;
   font-family: "Roboto", sans-serif; }
-
-#titulo_h1 {
-  font-size: 25px; }
-
-.menu_item {
-  font-size: 18px; }
-
-.menu_item:hover {
-  color: whitesmoke; }
-
-.dropdown-item:hover {
-  color: #a1a1a1; }
 
 .card-body {
   color: #a1a1a1;
@@ -127,7 +127,12 @@ table {
   background-color: #333333;
   font-family: "Roboto", sans-serif; }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   color: whitesmoke;
   display: flex;
   justify-content: center;
