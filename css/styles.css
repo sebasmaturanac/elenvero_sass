@@ -1,100 +1,123 @@
-.menu_item, .navbar-nav, .card-body {
+.card-body, .navbar-nav, .menu_item {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .nav_bar {
-  background-color: #222222;
-  font-size: 15px; }
+  background-color: rgb(34, 34, 34);
+  font-size: 15px;
+}
 
 .navbar-brand {
   color: whitesmoke;
-  font-size: 24px; }
+  font-size: 24px;
+}
 
 .menu_item {
   text-decoration: none;
-  color: #a1a1a1; }
+  color: rgb(161, 161, 161);
+}
 
 #titulo_h1 {
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .menu_item {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .menu_item:hover {
-  color: whitesmoke; }
+  color: whitesmoke;
+}
 
 .dropdown-item:hover {
-  color: #a1a1a1; }
+  color: rgb(161, 161, 161);
+}
 
 #burger {
-  background-color: #b8b5b5; }
+  background-color: rgb(184, 181, 181);
+}
 
 .formulario {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 250px;
-  width: 1500%; }
+  width: 1500%;
+}
 
 body {
-  background: black;
+  background: rgb(0, 0, 0);
   color: white;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .card-body {
-  color: #a1a1a1;
-  font-family: "Roboto", sans-serif; }
+  color: rgb(161, 161, 161);
+  font-family: "Roboto", sans-serif;
+}
 
 .card-text {
   text-align: center;
-  color: #a1a1a1;
-  font-family: "Roboto", sans-serif; }
+  color: rgb(161, 161, 161);
+  font-family: "Roboto", sans-serif;
+}
 
 .title_seleccion {
   text-align: center;
-  color: #a1a1a1;
+  color: rgb(161, 161, 161);
   margin-top: 30px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .card-img-top {
   margin: 5px;
   padding: 40px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .btn {
-  color: #a1a1a1; }
+  color: rgb(161, 161, 161);
+}
 
 #card-img-top:hover {
   transform: scale(1.5);
-  transition: all 2s; }
+  transition: all 2s;
+}
 
 .card-title {
   text-align: center;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .final_torrontes {
-  text-align: center; }
+  text-align: center;
+}
 
 .container {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .image-gallery .col-md-3 {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .image-gallery img {
   width: 100%;
   height: auto;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .popup-container {
   display: none;
@@ -105,7 +128,8 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
-  text-align: center; }
+  text-align: center;
+}
 
 .popup-content {
   display: inline-block;
@@ -113,19 +137,22 @@ body {
   top: 50%;
   transform: translateY(-50%);
   max-width: 80%;
-  max-height: 80%; }
+  max-height: 80%;
+}
 
 .popup-image {
   width: 100%;
   height: auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
   background-color: #333333;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 h1,
 h2,
@@ -138,7 +165,8 @@ p {
   justify-content: center;
   padding: 10px;
   margin: 20px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .imagen_pages {
   padding: 2%;
@@ -147,40 +175,53 @@ p {
   justify-content: center;
   /* Centra horizontalmente */
   align-items: center;
-  /* Centra verticalmente */ }
+  /* Centra verticalmente */
+}
 
 .maridajes_list {
   margin-left: 5%;
   margin-right: 5%;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .intro_malbec {
   margin-left: 5%;
-  margin-right: 5%; }
+  margin-right: 5%;
+}
 
 .field {
-  margin-top: 10%; }
+  margin-top: 10%;
+}
 
 .img-tienda {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .img-tienda img {
   max-width: 100px !important;
-  max-height: 50vh !important; }
+  max-height: 50vh !important;
+}
+
+#emailHelp {
+  color: rgb(92, 90, 90);
+}
 
 .my-form-column {
   width: 500px;
   /* Establece el ancho deseado */
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .mantenimiento h1 h2 {
-  color: whitesmoke; }
+  color: whitesmoke;
+}
 
 .text-center {
-  color: #a1a1a1; }
+  color: rgb(161, 161, 161);
+}
 
 /*# sourceMappingURL=styles.css.map */
